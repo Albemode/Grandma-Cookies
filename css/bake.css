@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	color: white;
+}
+
+body{
+	background-color: rgb(204, 204, 255);
+}
+
+h1 {
+	background-color: rgb(255, 153, 255);
+	width: 40%;
+	font-family: Savoye LET;
+	font-size: 70px;
+}
+
+
+
+
+#cookDoubleFudge img{
+	width: 250px;
+}
+
+#cookLemon img{
+width: 250px;
+}
+
+#cookPeanutbutter img{
+width: 250px;
+}
+
+#cookOatmeal img{
+width: 250px;
+}
+
+#cookChocolateChip img{
+width: 250px;
+}
+
+#cookSugarCoat img{
+width: 250px;
+}
