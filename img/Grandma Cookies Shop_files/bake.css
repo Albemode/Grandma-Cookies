@@ -23,37 +23,30 @@ table {
 	position: relative;
 	padding: 10px;
 	left: 100PX;
-	width: 900px;
-}
- 
-tr {
-	max-width: 900px;
 }
 
 #cookDoubleFudge img{
 	width: 250px;
-	
 }
 
 #cookLemon img{
-	width: 250px;
-	backface-visibility: 
+width: 250px;
 }
 
 #cookPeanutbutter img{
-	width: 250px;
+width: 250px;
 }
 
 #cookOatmeal img{
-	width: 250px;
+width: 250px;
 }
 
 #cookChocolateChip img{
-	width: 250px;
+width: 250px;
 }
 
 #cookSugarCoat img{
-	width: 250px;
+width: 250px;
 }
 
 button {
