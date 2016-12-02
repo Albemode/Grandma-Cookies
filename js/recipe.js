@@ -37,7 +37,7 @@ function lemonSet() {
 function peanutbutterSet() {
   var setpeanutbutter = Cookies.set('cookPeanutbutter', peanutbutterCounter);
   lemonCounter++
-    document.getElementById("PBC").innerHTML = "Peanutbutter Cookies: " + lemonCounter;
+    document.getElementById("PBC").innerHTML = "Peanutbutter Cookies: " + peanutbutterCounter;
 }
 //oatmeal onclick function
 function oatmealSet() {

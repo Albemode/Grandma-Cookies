@@ -1,0 +1,136 @@
+* {
+	background-color: #4286f4;
+}
+
+
+#body {
+	width: 1200px;
+	
+}
+
+h1 {
+	position: absolute;
+	left: 335px;
+	text-align: center;
+	font-family: '28DaysLater';
+	font-size: 50px;
+	border-radius: 20px;
+	padding: 20px;
+	border: 10px solid black;
+}
+
+#peanutbutter {
+	width: 250px;
+	cursor: pointer;
+	margin-right: 29px;
+}
+
+#peanutbutter:hover {
+	/*width: 210px;*/
+	z-index: 1;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-name:orbit;
+    -webkit-animation-duration:3s;
+}
+
+#fudge {
+	width: 200px;
+	cursor: pointer;
+	margin-right: 35px;
+}
+
+#fudge:hover {
+	/*width: 210px;*/
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-name:orbit;
+    -webkit-animation-duration:3s;
+}
+
+#oatmeal {
+	width: 200px;
+	cursor: pointer;
+}
+
+#oatmeal:hover {
+	/*width: 210px;*/
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-name:orbit;
+    -webkit-animation-duration:3s;
+}
+
+#cookies {
+	position: absolute;
+	left: 150px;
+	top: 250px;
+}
+
+#cookiemonster {
+	width: 400px;
+	position: absolute;
+	left: 850px;
+	top: 200px;
+}
+
+/*Monster Cookies*/
+
+#monstercookies {
+	position: absolute;
+	left: 355px;
+	top: 260px;
+
+	/*transform: rotate(45deg) translateX(250px) rotate(-45deg)*/;
+}
+
+
+
+@-webkit-keyframes orbit { 
+from { -webkit-transform:rotate(0deg) } 
+to { -webkit-transform:rotate(360deg) } 
+}
+
+/*Clear Buttons*/
+
+#clearbuttons {
+	top: 480px;
+	left: 233px;
+	position: absolute;
+	z-index: 3;
+}
+
+#clearpeanutbutter {
+	font-family: 
+	width: 80px;
+	margin-right: 130px;
+	border-radius: 30px;
+	background-color: white;
+	cursor: pointer;
+}
+
+#clearpeanutbutter:hover {
+        background:yellow;
+}
+
+#clearfudge {
+	font-family: 'Coming Soon', cursive;
+	width: 80px;
+	margin-right: 130px;
+	border-radius: 30px;
+	background-color: white;
+	cursor: pointer;
+}
+
+#clearfudge:hover {
+        background:yellow;
+}
+
+#clearoatmeal {
+	font-family: 'Coming Soon', cursive;
+	width: 80px;
+	border-radius: 30px;
+	background-color: white;
+	cursor: pointer;
+}
+
+#clearoatmeal:hover {
+        background:yellow;
+}
