@@ -50,4 +50,11 @@ $(document).ready(function(){
 		Cookies.expire("oatmealcookies");
 		console.log("I wanted chocolate")
 	});
+
 });
+
+
+
+
+
+

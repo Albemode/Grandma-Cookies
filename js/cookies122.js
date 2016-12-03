@@ -1,5 +1,5 @@
 /*
- * Cookies.js - 1.2.4-pre
+ * Cookies.js - 1.2.2
  * https://github.com/ScottHamper/Cookies
  *
  * This is free and unencumbered software released into the public domain.
@@ -153,7 +153,8 @@
 
         return Cookies;
     };
-    var cookiesExport = (global && typeof global.document === 'object') ? factory(global) : factory;
+
+    var cookiesExport = typeof global.document === 'object' ? factory(global) : factory;
 
     // AMD support
     if (typeof define === 'function' && define.amd) {

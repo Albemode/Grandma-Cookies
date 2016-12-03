@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+html {
+	background: hotpink;
+	width: 100%;
+	margin: 0 auto;
+	height: 100vh;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin-bottom: 80px; 
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 15px;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	font-weight: 100;
+	font-size: 14px;
+	color: black;
+}
+
+table {
+	margin: 0 auto;
+	text-align: center;
+}
+
+td {
+	width: 350px;
+	display: inline-block;
+	text-align: center;
+	font-weight: 100;
+	font-size: 17px;
+}
+
+img {
+	width: 300px;
+	border: 3px dashed white;
+}
+
+input {
+	color: black;
+}
+
+#totals {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: block;
+	width: 100%;
+	height: 50px;
+	float: right;
+	vertical-align: middle;
+}
+
+#clear:hover {
+	cursor: default;
+}
+
+.butts {
+	text-align: center;
+	margin-top: 50px;
+	background: white;
+	border: 2px dashed gray;
+	width: 90px;
+	color: black;
+	font-size: 12px;
+	padding: 7px;
+}
+
+.cookieText {
+	color: black;
+}
