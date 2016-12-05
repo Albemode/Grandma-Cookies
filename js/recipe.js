@@ -19,74 +19,74 @@
 
 
 var cookie_visited1 = Cookies.get('cookDoubleFudge');
-var doublefudgeCounter = 0;
+var doublefudgeCounter = cookie_visited1;
 document.getElementById("DFC").innerHTML="Double Fudge Cookies: " + cookie_visited1
 console.log()
 //------------------------------------------------------------------------------ Double Fudge
 
 var cookie_visited2 = Cookies.get('cookLemon');
-var lemonCounter = 0;
+var lemonCounter = cookie_visited2;
 document.getElementById("LC").innerHTML="Lemon Cookies: " + cookie_visited2
 console.log()
 //------------------------------------------------------------------------------------- Lemon
 var cookie_visited3 = Cookies.get('cookPeanutbutter');
-var peanutbutterCounter = 0;
+var peanutbutterCounter = cookie_visited3;
 document.getElementById("PBC").innerHTML="Peanutbutter Cookies: " + cookie_visited3
 console.log()
 //--------------------------------------------------------------------------------Peanutbutter
 
 var cookie_visited4 = Cookies.get('cookOatmeal');
-var oatmealCounter = 0;
+var oatmealCounter = cookie_visited4;
 document.getElementById("OMC").innerHTML="Oatmeal Cookies: " + cookie_visited4
 console.log()
 //----------------------------------------------------------------------------- Chocolate Chip
 
 var cookie_visited5 = Cookies.get('cookChocolateChip');
-var chocolateCounter = 0;
+var chocolateCounter = cookie_visited5;
 document.getElementById("CCC").innerHTML="Chocolate Chip Cookies: " + cookie_visited5
 console.log()
 //--------------------------------------------------------------------------------- Sugar Coat
 
 var cookie_visited6 = Cookies.get('cookSugarCoat');
-var sugarCounter = 0;
-document.getElementById("SCC").innerHTML="Double Fudge Cookies: " + cookie_visited6
+var sugarCounter = cookie_visited6;
+document.getElementById("SCC").innerHTML="Sugar Coat Cookies: " + cookie_visited6
 console.log()
 
 
 //doublefudge onclick function
 function doublefudgeSet() {
-  var setdoublefudge = Cookies.set('cookDoubleFudge', doublefudgeCounter);
   doublefudgeCounter++
+  var setdoublefudge = Cookies.set('cookDoubleFudge', doublefudgeCounter);
   document.getElementById("DFC").textContent = "Double Fudge Cookies: " + doublefudgeCounter;
 }
 //lemon onclick function
 function lemonSet() {
-  var setlemon = Cookies.set('cookLemon', lemonCounter);
   lemonCounter++
+  var setlemon = Cookies.set('cookLemon', lemonCounter);
   document.getElementById("LC").textContent = "Lemon Cookies: " + lemonCounter;
 }
 //peanutbutter onclick function
 function peanutbutterSet() {
-  var setpeanutbutter = Cookies.set('cookPeanutbutter', peanutbutterCounter);
   peanutbutterCounter++
+  var setpeanutbutter = Cookies.set('cookPeanutbutter', peanutbutterCounter);
   document.getElementById("PBC").textContent = "Peanutbutter Cookies: " + peanutbutterCounter;
 }
 //oatmeal onclick function
 function oatmealSet() {
-  var setoatmeal = Cookies.set('cookOatmeal', oatmealCounter);
   oatmealCounter++
+  var setoatmeal = Cookies.set('cookOatmeal', oatmealCounter);
   document.getElementById("OMC").textContent = "Oatmeal Cookies: " + oatmealCounter;
 }
 //chocolate onclick function
 function chocolatechipSet() {
-  var setChocolate = Cookies.set('cookChocolateChip', chocolateCounter);
   chocolateCounter++
+  var setChocolate = Cookies.set('cookChocolateChip', chocolateCounter);
   document.getElementById("CCC").textContent = "Chocolate Chip Cookies: " + chocolateCounter;
 }
 //sugar onclick function
 function sugarcoatSet() {
-  var setSugar = Cookies.set('cookSugarCoat', sugarCounter);
   sugarCounter++
+  var setSugar = Cookies.set('cookSugarCoat', sugarCounter);
   document.getElementById("SCC").textContent = "Sugar Coat Cookies: " + sugarCounter;
 }
 
